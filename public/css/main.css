@@ -1,0 +1,64 @@
+img{
+	max-width: 100%
+}
+
+.quitar-float{
+	float: none;
+}
+
+.espacio-arriba{
+	margin-top: 100px;
+}
+
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.se-gris{
+	background-color: #eee;
+}
+.mediano{
+	font-size: 1.5em;
+}
+.vete-arriba{
+	vertical-align: top;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.grande{
+	font-size: 4em;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.verde{
+	color: #95C11E;
+}
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso-2{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+a,.azul{
+	color: #36A9E0;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px; /* se usa para que inline block quite el espacio que deja por defencto y se pueda usar bien los md3 */
+}
+.no-lista li{
+	list-style-type: none; /* quita las viñetas en los menus*/
+}
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
