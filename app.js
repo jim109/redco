@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 var app = express();
 
-mongoose.connect("mongodb://localhost/redco_db")
+mongoose.connect("mongodb://localhost/redcodb");
 
 //Definir el esquema de nuestro productos o la tabla
 var productSchema = {
@@ -21,12 +21,12 @@ app.set("view engine", "jade");
 
 app.use(express.static("public"));
 
-app.get("/", function(solicitud,respuesta){
+app.get("/",function(solicitud,respuesta){
 
 	var data = {
 		title: "Mi primer super producto",
 		description: "Una mega",
-		imageUrl:"data.png",
+		imageUrl: "data.png",
 		pricing: 10
 	}
 
@@ -36,7 +36,7 @@ app.get("/", function(solicitud,respuesta){
 		console.log(product);
 	});
 
-	respuesta.render("index")
+	respuesta.render("index");
 });
 //HTTP
 	//Metodos
